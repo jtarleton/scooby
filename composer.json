@@ -14,14 +14,15 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "silex/silex": "~2.0"
     },
     "autoload": {
         "classmap" : [
             "src/"
         ],
         "psr-0": {
-            "Scooby\\": "src/"
+            "": "src/"
         }
     }
 }
